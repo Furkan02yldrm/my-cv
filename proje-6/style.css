@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela&display=swap");
+
+body {
+  font-family: "Varela", serif;
+  margin: 0;
+  max-height: 100vh;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: rgb(60, 60, 60);
+  margin-top: 5rem;
+  border-radius: 10px;
+}
+.card {
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card .row img {
+  border-radius: 4rem;
+  max-width: 5rem;
+  max-height: 5rem;
+}
+.card .row a {
+  display: flex;
+
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(100, 100, 100);
+  margin: 1rem;
+  padding: 0.5rem 5rem;
+  border-radius: 0.5rem;
+}
+.card .row a:hover {
+  opacity: 0.6;
+}
+.row-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row-text h3 {
+  margin: 0;
+}
+.row a i {
+  margin: 0.2rem 0.5rem;
+}
